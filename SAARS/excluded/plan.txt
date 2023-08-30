@@ -1,0 +1,23 @@
+﻿SAARS
+Security Assessment and Reporting System
+Users will join teams, each team will contain assessments from all recent security tests.
+Assesments can be accessed by all members but permissions will be in place for certain aspects.
+Users will be able to input basic information, ability to expand using AI will be available but
+the format will have to be consistent.
+Database structure will be similar to CIDDMS. Maybe use firebase instead?
+
+Fix overflow in pdf, need algo for that. Unicode shit is weird when copy pasting, who knows, maybe arm arch error.
+Add rest of report elements to pdf.
+
+
+Report Xml:
+
+<report>
+	<type>On Site</type>
+	<date>Feb 24, 2001</date>
+	<findings>Some Findings</findings>
+	<correctiveAction>Some recommendations</correctiveAction>
+	<remarks>Some remarks</remarks>
+</report>
+
+<report><type>On Site</type><date>Feb 24, 2001</date><findings>Some Findings</findings><correctiveAction>Some recommendations</correctiveAction><remarks>Some remarks</remarks></report>
